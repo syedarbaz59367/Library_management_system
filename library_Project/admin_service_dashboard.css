@@ -1,0 +1,120 @@
+.innerright,
+label {
+  color: rgb(16, 170, 16);
+  font-weight: bold;
+}
+.container,
+.row,
+.imglogo {
+  margin: auto;
+}
+
+.innerdiv {
+  text-align: center;
+  /* width: 500px; */
+  margin: 100px;
+}
+input {
+  margin-left: 20px;
+}
+.leftinnerdiv {
+  float: left;
+  width: 25%;
+}
+
+.rightinnerdiv {
+  float: right;
+  width: 75%;
+}
+
+.innerright {
+  background-color: #f3bd7e;
+}
+
+.greenbtn {
+  background-color: #ffe3e3;
+  color: black;
+  width: 95%;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.greenbtn,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+th {
+  background-color: #16de52;
+  color: black;
+}
+td {
+  background-color: #b1fec7;
+  color: black;
+}
+td,
+a {
+  color: black;
+}
+
+/* * {
+            box-sizing: border-box;
+            font-family: 'Roboto';
+        } */
+
+label {
+  margin-left: 50px;
+  padding-top: 10px;
+  /* display: block;
+            text-align: left; */
+  font-size: 18px;
+  /* font-style:bold;
+            padding-bottom: 0px; */
+  color: rgb(51, 51, 51);
+  /* font-weight: 300;
+            margin-bottom: 0rem; */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="pasword"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="pasword"],
+select,
+textarea {
+  width: 40%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  resize: vertical;
+}
+
+body {
+  font-family: "Roboto";
+  /* background-image: url('images/library.jpg'); */
+}
+
+::placeholder {
+  color: rgb(189, 184, 184);
+  font-style: italic;
+  font-size: 14px;
+}
